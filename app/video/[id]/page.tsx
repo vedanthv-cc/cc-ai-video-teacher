@@ -43,7 +43,7 @@ export default function VideoPage() {
       <div className="relative z-10">
         <header className="py-6 px-4 md:px-8 lg:px-12 backdrop-blur-md bg-white/10 fixed top-0 left-0 right-0 z-20">
           <h1 className="text-2xl md:text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-            Code Craft's AI Teacher
+            Code Craft&apos;s AI Teacher
           </h1>
         </header>
 

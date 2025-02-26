@@ -29,7 +29,7 @@ export default function Home() {
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-center leading-tight">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
-              Code Craft's YouTube
+              Code Craft&apos;s YouTube
             </span>
             <br className="hidden sm:block" />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-blue-400 to-purple-400">
