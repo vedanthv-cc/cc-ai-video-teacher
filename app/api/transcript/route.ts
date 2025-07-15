@@ -1,4 +1,4 @@
-import { YoutubeTranscript } from "youtube-transcript";
+import { getTranscript } from "../../../test";
 import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
@@ -13,7 +13,7 @@ export async function GET(request: Request) {
   }
 
   try {
-    const transcript = await YoutubeTranscript.fetchTranscript(videoId);
+    const transcript = await getTranscript(videoId, 'en');
     const formattedTranscript = transcript.map((item) => ({
       text: item.text || "",
     }));

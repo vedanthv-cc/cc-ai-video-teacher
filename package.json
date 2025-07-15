@@ -16,7 +16,11 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-youtube": "^10.1.0",
-    "youtube-transcript": "^1.2.1"
+    "t-youtube-transcript-fetcher": "^1.0.6",
+    "youtube-transcript": "^1.2.1",
+    "youtube-transcript-api": "^3.0.6",
+    "youtube-transcript-plus": "^1.0.4",
+    "youtubei.js": "^14.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
