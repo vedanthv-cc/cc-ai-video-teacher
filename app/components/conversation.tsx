@@ -80,7 +80,7 @@ export function Conversation({ name, videoId, playerRef }: ConversationProps) {
       .getUserMedia({ audio: true })
       .then(() => {
         return conversation.startSession({
-          agentId: "n9BcPsqomxa1grKe8rQ7",
+          agentId: process.env.NEXT_PUBLIC_AGENT_ID,
           dynamicVariables: {
             student_name: name,
             transcription: transcription,

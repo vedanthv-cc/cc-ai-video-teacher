@@ -104,7 +104,7 @@ export default function VideoPage() {
         </main>
 
         <footer className="py-6 px-4 md:px-8 lg:px-12 text-center text-gray-400 backdrop-blur-md bg-white/10">
-          <p>&copy; 2023 Code Craft. All rights reserved.</p>
+          <p>&copy; 2025 Code Craft. All rights reserved.</p>
         </footer>
       </div>
     </div>
